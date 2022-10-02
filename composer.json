@@ -1,0 +1,37 @@
+{
+  "name": "asciito/blog",
+  "description": "A simple and small project to build a blog in your Laravel site",
+  "authors": [
+    {
+      "name": "Ayax Córdova",
+      "email": "ayax.cordova@aydev.mx",
+      "role": "Developer"
+    }
+  ],
+  "type": "library",
+  "keywords": ["laravel", "blog"],
+  "homepage": "https://aydev.mx",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "asciito\\Blog\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "asciito\\Blog\\Tests\\": "tests"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "orchestra/testbench": "^7.8",
+    "phpunit/phpunit": "^9.5"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "asciito\\Blog\\BlogServiceProvider"
+      ]
+    }
+  }
+}
