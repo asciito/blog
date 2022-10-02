@@ -8,6 +8,7 @@
       "role": "Developer"
     }
   ],
+  "version": "0.0.0",
   "type": "library",
   "keywords": ["laravel", "blog"],
   "homepage": "https://aydev.mx",
