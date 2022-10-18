@@ -23,10 +23,10 @@
       "asciito\\Blog\\Tests\\": "tests"
     }
   },
-  "require": {},
   "require-dev": {
     "orchestra/testbench": "^7.8",
-    "phpunit/phpunit": "^9.5"
+    "phpunit/phpunit": "^9.5",
+    "orchestra/canvas": "^7.2.1"
   },
   "extra": {
     "laravel": {
